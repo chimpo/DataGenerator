@@ -68,8 +68,8 @@ public class GenerateData {
 
     public void openExcel()
     {
-        XSSFWorkbook newWorkbook = new XSSFWorkbook();
-        XSSFSheet newSheet = newWorkbook.createSheet("EmpData");
+       newWorkbook = new XSSFWorkbook();
+        newSheet = newWorkbook.createSheet("EmpData");
     }
 
     public void genRandomData()
