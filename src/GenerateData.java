@@ -136,8 +136,8 @@ public class GenerateData {
 
     public static void main(String[] args) {
 
-        String fileName= JOptionPane.showInputDialog(null,"Podaj docelową nazwę pliku");
-        int howMany= Integer.parseInt(JOptionPane.showInputDialog(null,"Podaj liczbę rekordow"));
+        String fileName= JOptionPane.showInputDialog(null,"Add file name:");
+        int howMany= Integer.parseInt(JOptionPane.showInputDialog(null,"Add number of rows:"));
        
         try {
             new GenerateData(howMany, fileName);
